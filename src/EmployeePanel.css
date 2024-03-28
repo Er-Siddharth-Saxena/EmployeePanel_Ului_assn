@@ -1,0 +1,61 @@
+.employee-panel {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .employee-list {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .employee-list input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-list th, .employee-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .employee-list th:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .employee-list tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .employee-details {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .employee-details h2 {
+    margin-top: 0;
+  }
+  
+  .employee-details p {
+    margin-bottom: 10px;
+  }
+  
